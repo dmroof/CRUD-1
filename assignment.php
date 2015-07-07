@@ -61,7 +61,7 @@ exit;
                             echo '<td>'. $row['description'] . '</td>';
                             echo '<td>'. $row['comment'] . '</td>';
 							echo '<td width=250>';
-                            echo '<a class="btn" href="readEvent.php?id='.$row['id'].'">Read</a>';
+                            echo '<a class="btn" href="readAssignment.php?id='.$row['id'].'">Read</a>';
                             echo ' ';
                             echo '<a class="btn btn-success" href="updateAssignment.php?id='.$row['id'].'">Update</a>';
                             echo ' ';

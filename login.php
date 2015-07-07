@@ -71,7 +71,7 @@
 					$mysqli->close();
 					
 					// If the user came from the login page, direct them to the landing page
-					if ($_SERVER['HTTP_REFERER'] == "http://csis.svsu.edu/~dmroof/CIS355/login.php" )
+					if ($_SERVER['HTTP_REFERER'] == "http://csis.svsu.edu/~dmroof/CIS355/CRUD_1/login.php")
 					{
 						// Relocate to landing page
 						header('Location: assignments.php');
@@ -140,7 +140,8 @@
 				</div>
 		</div>
 		<a href="assignments.php" style="text-decoration: none;"><span class="glyphicon glyphicon-arrow-left" style="padding-right:3px;"></span> Back to Home</a>
-		
+		<p>Username: something@gmail.com</p>
+		<p>Password: 1</p>
 	</div>
 	<div class="col-md-4"></div>
 	</div>
